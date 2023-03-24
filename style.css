@@ -263,8 +263,8 @@ button:active {
 .project-list ul {
   display: grid;
   gap: 10px;
-  grid-template-columns: 50px 40px 90px;
-  padding-bottom: 35px;
+  grid-template-columns: 3.125rem 2.5rem 5.625rem;
+  padding-bottom: 2.1875rem;
 }
 
 .button {
@@ -275,9 +275,9 @@ button:active {
   color: #396df2;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  padding: 14px;
-  margin-bottom: 30px;
-  margin-top: 15px;
+  padding: 0.875rem;
+  margin-bottom: 0.625rem;
+  margin-top: 0.9375rem;
 }
 
 .about {
@@ -288,7 +288,7 @@ button:active {
   gap: 0.75rem;
   background-size: cover;
   background-color: #fff;
-  border-radius: 0 70px 0 0;
+  border-radius: 0 4.375rem 0 0;
 }
 
 .about1 {
@@ -325,10 +325,10 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
-  gap: 12px;
+  padding: 0.75rem;
+  gap: 0.75rem;
   font-family: 'Poppins', sans-serif;
-  width: 327px;
+  width: 20.4375rem;
 }
 
 .skill-list ul {
@@ -337,8 +337,8 @@ button:active {
   justify-content: space-between;
   align-items: flex-start;
   padding: 0;
-  width: 327px;
-  margin-bottom: 40px;
+  width: 20.4375rem;
+  margin-bottom: 10px;
 }
 
 .skill-list h1 {
@@ -347,18 +347,22 @@ button:active {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   margin-bottom: 35px;
+}
+
+.skill-list {
+  margin-top: 0px;
 }
 
 .language li {
   background: #f7f7f9;
-  border-radius: 8px;
-  width: 303px;
-  height: 66.72px;
+  border-radius: 0.5rem;
+  width: 18.9375rem;
+  height: 4.17rem;
   align-items: center;
-  padding-left: 80px;
+  padding-left: 5rem;
 }
 
 .language ul {
@@ -367,10 +371,10 @@ button:active {
 
 .language img {
   position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 12px;
-  margin-left: 25px;
+  width: 3rem;
+  height: 3rem;
+  left: 0.75rem;
+  margin-left: 1.5625rem;
 }
 
 .separator-border {
@@ -396,4 +400,12 @@ button:active {
   margin-right: 1.5rem;
   padding: 0.5rem;
   width: 327px;
+}
+
+.drop-down h1, .separator {
+  padding-top: 15px;
+}
+
+.fa-angle-right, .fa-angle-down {
+  padding-right: 50px;
 }
