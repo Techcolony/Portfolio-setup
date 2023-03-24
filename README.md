@@ -3,7 +3,7 @@
   <img src="" alt="Techcolony" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Mobile First Setup</b></h3>
+  <h3><b>Portfolio Mobile Finish</b></h3>
 
 </div>
 
@@ -44,8 +44,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -60,7 +58,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - Added index.html file
 - Added style.css file
@@ -113,7 +110,6 @@ after cloning the project to your local machine, you can use your code editor to
 
 ## 👥 Saheed Oyelola (Techcolony) <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
