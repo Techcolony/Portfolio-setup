@@ -235,20 +235,21 @@
                     </ul>
                 </div>
             </section>
-            <section>
-                <div class="contact-me">
+            <section class="contact-me">
+                <div>
                     <h3>Contact me</h3>
-                    <p>
-                        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-                        I’d love to help with it!
+                    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+                        <br>I’d love to help with it!
                     </p>
-                    <form action="" method="post">
-                        <input type="text" name="text" id="text" placeholder="Full name" maxlength="30" required />
-                        <input type="email" name="email" id="email" placeholder="Your email address" maxlength="30" required />
-                        <textarea id="message" name="message" maxlength="300" placeholder="Enter your message"></textarea>
-                        <input type="submit" value="Get in touch" />
-                    </form>
                 </div>
+                <form action="https://formspree.io/f/{form_id}" method="post"></form>
+                    <ul>
+                        <li><input type="text" name="text" id="text" maxlength="30" placeholder="Your Full Name" required></li>
+                        <li><input type="email" name="email" id="email" placeholder="Your Email ID" maxlength="30" required></li>
+                        <li><textarea name="comment" id="comment" placeholder="Write your message here..." maxlength="500"></textarea></li>
+                        <li><button type="submit" id="btn">Get in touch</button></li>
+                    </ul>    
+                </form>
             </section>
         </div>
     </section>
