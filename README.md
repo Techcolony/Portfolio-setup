@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Portfolio Mobile Finish <a name="about-project"></a>
 
-> This project is the portfolio mobile first setup, it is created using HTML and CSS with Linters also implemented. It has addition feature of responsivity to breaking points on various  mobile devices.
+> This project is the portfolio mobile finish setup, it is created using HTML and CSS with Linters also implemented. It has addition feature of responsivity to breaking points on various mobile devices and contact form with actions.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. HTML5
