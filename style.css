@@ -288,6 +288,7 @@ button:active {
   background-size: cover;
   background-color: #fff;
   border-radius: 0 4.375rem 0 0;
+  height: 78.9375rem;
 }
 
 .about1 {
@@ -413,15 +414,6 @@ button:active {
   padding-right: 50px;
 }
 
-.contact-me > h3 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-}
-
 form {
   display: grid;
   gap: 10px;
@@ -432,61 +424,38 @@ form {
 .contact-me {
   display: flex;
   flex-direction: column;
-  padding: 7.125rem 1.5rem;
-  gap: 0.75rem;
-  height: 709.17px;
-  border-radius: 50px 0 0 0;
-  background-color: #6070ff;
-  background-image: url(icons-images/contact-form.png);
-  background-size: cover;
+  width: 375px;
+  height: 779px;
+  border-radius: 70px 0 0 0;
+  background: #6070ff;
+  background-image: url(icons-images/mobile.png);
   background-position: right;
-  position: relative;
-}
-
-#text,
-#email {
-  width: 327px;
-  height: 48px;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-  background: #fff;
-  color: #172b4d;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 20px;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  background-position-y: 21px;
+  background-repeat: no-repeat;
+  margin-top: -220px;
 }
 
 .contact-me p {
   width: 327px;
   height: 137px;
-  left: 24px;
-  align-content: center;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
-  padding: 5px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+  margin: 15px 24px;
 }
 
 .contact-me h3 {
-  margin-left: 50px;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  margin-top: 105px;
 }
 
-#message {
-  width: 327px;
-  height: 170px;
-  border-radius: 8px;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-  background: #fff;
-  color: #b3bac5;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 20px;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
-}
