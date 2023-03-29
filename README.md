@@ -63,6 +63,7 @@
 - Added style.css file
 - Added responsiveness to the design
 - Implemented linters
+- Added Contact form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,8 +126,7 @@ after cloning the project to your local machine, you can use your code editor to
 
 > 
 - More contents and pages will be added
-- Make the project more responsive with buttons
-- Contact forms to be added also
+- Make the project more responsive with Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
