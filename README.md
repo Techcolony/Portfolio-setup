@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Portfolio Mobile Finish <a name="about-project"></a>
 
-> This project is the portfolio mobile first setup, it is created using HTML and CSS with Linters also implemented. It has addition feature of responsivity to breaking points on various  mobile devices.
+> This project is the portfolio mobile finish setup, it is created using HTML and CSS with Linters also implemented. It has addition feature of responsivity to breaking points on various mobile devices and contact form with actions.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. HTML5
@@ -63,6 +63,7 @@
 - Added style.css file
 - Added responsiveness to the design
 - Implemented linters
+- Added Contact form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,8 +126,7 @@ after cloning the project to your local machine, you can use your code editor to
 
 > 
 - More contents and pages will be added
-- Make the project more responsive with buttons
-- Contact forms to be added also
+- Make the project more responsive with Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
