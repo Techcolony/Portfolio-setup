@@ -18,6 +18,16 @@ body {
   align-items: center;
 }
 
+.nav-bar > ul {
+  display: none;
+  position: absolute;
+  margin: 50px 80%;
+}
+.nav-bar li {
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
 .logo {
   margin-left: 1.5rem;
   margin-top: 0.875rem;
@@ -35,11 +45,34 @@ a {
   line-height: 20px;
   cursor: pointer;
 }
-
 .drop-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
   margin-right: 2.25rem;
   margin-top: 0.875rem;
 }
+
+/* .drop-bar span,
+.drop-bar span::before,
+.drop-bar span::after {
+  display: block;
+  background: #6070ff;
+  height: 2px;
+  width: 2em;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.drop-bar span::before {
+  bottom: 7px;
+}
+
+.drop-bar span::after {
+  top: 7px;
+} */
 
 .headline {
   display: flex;
@@ -123,6 +156,10 @@ button:active {
   height: 2788px;
   top: 718px;
   background: #dfe1e6;
+}
+
+.snapshoot-portfolio-desktop {
+  display: none;
 }
 
 .card-works {
