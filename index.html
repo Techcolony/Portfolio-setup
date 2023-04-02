@@ -14,32 +14,28 @@
 </head>
 <body>
     <header class="header">
-        <img class="drop-bar" src="icons-images/Icon-menu.png">
-        
+        <a href="#" class="logo">Techcolony</a>
         <nav class="nav-bar">
-            <a href="#" class="logo">Techcolony</a>
+            <img class="drop-bar" src="icons-images/Icon-menu.png">
+        </nav>
+
+        <nav class="nav-bar_desk">
             <ul>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <label for="drop-bar" class="drop-bar">
-                <span></span>
-            </label>
         </nav>
+    </header>
     <section class="headline">
         <div class="headline1d">
             <h1 class="headline1">
-                I'm Saheed <br>Glad to see<br>you!
+                I'm Saheed <br> Glad to see you!
             </h1>
-        </div>
-        <div class="headline2d">
             <p class="headline2">
                 I’m a software developer! I can help you build a product, 
                 feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
-        </div>
-        <div class="headline3d">
             <h3 class="headline3">LET'S CONNECT</h3>
         </div>
         <div class="social-media">
@@ -98,7 +94,7 @@
                 <div class="left-block-container">
                     <div class="left-block">
                         <div class="project1">
-                            <h3>Multi-Post </br>Stories</h3>
+                            <h3>Multi-Post Stories</h3>
                             <ul>
                                 <li class="canopy">CANOPY</li>
                                 <li><img src="icons-images/Counter.png" /></li>
@@ -108,10 +104,11 @@
                             </ul>
                         </div>
                         <div class="project-content">
-                            <p>
+                            <p class="para1">
                                 A daily selection of privately personalized reads; 
                                 no accounts or sign-ups required.
                             </p>
+                            <p class="para2">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
                         </div>
                         <div class="project-list">
                             <ul>
@@ -143,10 +140,11 @@
                             </ul>
                         </div>
                         <div class="project-content">
-                            <p>
+                            <p class="para1">
                                 A daily selection of privately personalized reads; 
                                 no accounts or sign-ups required.
                             </p>
+                            <p class="para2">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
                         </div>
                         <div class="project-list">
                             <ul>
@@ -168,7 +166,7 @@
                 <div class="left-block-container">
                     <div class="left-block">
                         <div class="project1">
-                            <h3>Multi-Post </br>Stories</h3>
+                            <h3>Multi-Post Stories</h3>
                             <ul>
                                 <li class="canopy">CANOPY</li>
                                 <li><img src="icons-images/Counter.png" /></li>
@@ -178,9 +176,12 @@
                             </ul>
                         </div>
                         <div class="project-content">
-                            <p>
+                            <p class="para1">
                                 A daily selection of privately personalized reads; 
                                 no accounts or sign-ups required.
+                            </p>
+                            <p class="para2">
+                                A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
                             </p>
                         </div>
                         <div class="project-list">
@@ -196,7 +197,10 @@
                     </div>
                 </div>
             </div>
+            </div>
+    </section>
             <section class="about">
+                <div class=text-part>
                 <div class="about1d">
                     <h3 class="about1">
                         About Myself
@@ -223,6 +227,7 @@
                 <a href="#" class="button">
                     Get my resume
                 </a>
+            </div>
                 <div class="skill-list">
                     <ul>
                         <li class="drop-down">
@@ -230,10 +235,16 @@
                             <i class="fa fa-angle-down"></i>
                         </li>
                             <ul class="language">
-                                <li><img src="icons-images/JS.png">Javascript</li>
-                                <li><img src="icons-images/HTML.png">HTML</li>
-                                <li><img src="icons-images/CSS.png">CSS</li>
+                                <li><span>Javascript</span></li>
+                                <img src="icons-images/JS.png">
+                            <ul>
+                                <li><span>HTML</span></li>
+                                <img src="icons-images/HTML.png">
                             </ul>
+                                <li><span>CSS</span></li>
+                                <img src="icons-images/CSS.png">
+                            </ul>
+                        </ul>
                         <li class="separator-border">
                             <h3 class="separator">Frameworks</h3>
                             <i class="fa fa-angle-right"></i>
@@ -246,13 +257,12 @@
                 </div>
             </section>
             <section class="contact-me">
-                <div>
+                <div class="contact-text">
                     <h3>Contact me</h3>
-                    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-                        <br>I’d love to help with it!
+                    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
                     </p>
                 </div>
-                <form action="https://formspree.io/f/mgebnvgq" method="post">
+                <form action="https://formspree.io/f/mgebnvgq" method="post" class="form">
                     <ul>
                         <li><input type="text" name="text" id="text" maxlength="30" placeholder="Your Full Name" required></li>
                         <li><input type="email" name="email" id="email" placeholder="Your Email ID" required></li>
@@ -261,7 +271,5 @@
                     </ul>    
                 </form>
             </section>
-        </div>
-    </section>
 </body>
 </html>
