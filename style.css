@@ -284,6 +284,7 @@ button:active {
   letter-spacing: 0.03em;
   color: #6070ff;
   margin-top: 0.8125rem;
+  float: left;
 }
 
 .project-list ul {
@@ -358,6 +359,10 @@ button:active {
   gap: 0.75rem;
   font-family: 'Poppins', sans-serif;
   width: 20.4375rem;
+}
+
+.skill-list-desktop {
+  display: none;
 }
 
 .skill-list ul {
@@ -676,6 +681,23 @@ button:active {
     margin-top: -20px;
   }
 
+  .project-list li {
+    background: #ebebff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 0.625rem;
+    height: 1.75rem;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    margin-top: 2.8125rem;
+    float: left;
+  }
+
   .about {
     display: flex;
     flex-direction: row;
@@ -687,12 +709,14 @@ button:active {
   }
 
   .text-part {
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     margin: 20px 0 0 5%;
   }
 
   .about2 {
-    width: 86%;
+    width: 50%;
     margin: 12px 0;
   }
 
@@ -700,25 +724,54 @@ button:active {
     margin-left: -25px;
   }
 
-  .skill-list ul {
+  .skill-list {
+    display: none;
+  }
+
+  .skill-list-desktop {
+    display: flex;
+    width: 1440px;
+    
+  }
+
+  .skill-list-desktop ul {
     width: 60%;
   }
 
+  .skill-list-desktop h3 {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 35px;
+  }
+
   .drop-down {
-    width: 60%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    width: 327px;
+  }
+  
+  .drop-down h3,
+  .separator {
+    padding-top: 15px;
+  }
+  
+  .fa-angle-right,
+  .fa-angle-down {
+    padding-right: 50px;
   }
 
   .language {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .language li img {
-    position: relative;
+    width: 100%;
   }
 
   .language li {
@@ -736,12 +789,12 @@ button:active {
   }
   
   .language img {
-    position: absolute;
-    width: 3rem;
+    position: relative;
+    /* width: 3rem;
     height: 3rem;
     left: 0.75rem;
     margin-left: 25rem;
-    margin-top: -3.75rem;
+    margin-top: -3.75rem; */
   }
 
   .contact-me {
