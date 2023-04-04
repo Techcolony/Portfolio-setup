@@ -38,6 +38,13 @@ body {
   font-size: 1.125rem;
   line-height: 1.25rem;
   color: #6070ff;
+  transition: all 150ms ease-in-out;
+  transition-duration: 1s;
+}
+
+.logo:hover {
+  text-decoration-line: underline;
+  transform: rotate(10deg);
 }
 
 a {
