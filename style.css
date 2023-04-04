@@ -92,7 +92,11 @@ a {
   margin-top: 12px;
 }
 
-li {
+.social-media-icon2 li,
+.social-media-icon li,
+.project-list ul,
+.project ul,
+.project1 ul {
   display: flex;
   list-style: none;
 }
@@ -357,6 +361,7 @@ button:active {
   gap: 0.75rem;
   font-family: 'Poppins', sans-serif;
   width: 20.4375rem;
+  list-style: none;
 }
 
 .skill-list ul {
@@ -367,6 +372,7 @@ button:active {
   padding: 0;
   width: 20.4375rem;
   margin-bottom: 10px;
+  list-style: none;
 }
 
 .skill-list h3 {
@@ -392,6 +398,7 @@ button:active {
   align-items: center;
   padding-left: 5rem;
   list-style: none;
+  display: flex;
 }
 
 .language ul {
@@ -404,6 +411,7 @@ button:active {
   height: 3rem;
   left: 0.75rem;
   margin-left: 1.5625rem;
+  align-items: center;
 }
 
 .separator-border {
@@ -536,4 +544,8 @@ form {
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
+}
+
+.form-input {
+  list-style-type: none;
 }
