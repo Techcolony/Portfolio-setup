@@ -92,7 +92,7 @@ a {
   margin-top: 12px;
 }
 
-div > ul > li {
+li {
   display: flex;
   list-style: none;
 }
@@ -529,7 +529,7 @@ form {
   background: #fff;
   color: #6070ff;
   border-radius: 8px;
-  margin-left: 23px;
+  /* margin-left: 23px; */
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
