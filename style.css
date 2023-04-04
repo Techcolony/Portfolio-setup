@@ -23,6 +23,7 @@ body {
   position: absolute;
   margin: 50px 80%;
 }
+
 .nav-bar li {
   margin-top: 1em;
   margin-right: 1em;
@@ -45,6 +46,7 @@ a {
   line-height: 20px;
   cursor: pointer;
 }
+
 .drop-bar {
   position: absolute;
   top: 0;
@@ -52,27 +54,6 @@ a {
   margin-right: 2.25rem;
   margin-top: 0.875rem;
 }
-
-/* .drop-bar span,
-.drop-bar span::before,
-.drop-bar span::after {
-  display: block;
-  background: #6070ff;
-  height: 2px;
-  width: 2em;
-  top: 0;
-  right: 0;
-  margin-right: 10px;
-  margin-top: 5px;
-}
-
-.drop-bar span::before {
-  bottom: 7px;
-}
-
-.drop-bar span::after {
-  top: 7px;
-} */
 
 .headline {
   display: flex;
@@ -104,8 +85,9 @@ a {
   margin-top: 12px;
 }
 
-li {
+div > ul > li {
   display: flex;
+  list-style: none;
 }
 
 .headline1 {
@@ -402,6 +384,7 @@ button:active {
   height: 4.17rem;
   align-items: center;
   padding-left: 5rem;
+  list-style: none;
 }
 
 .language ul {
