@@ -730,8 +730,7 @@ button:active {
 
   .skill-list-desktop {
     display: flex;
-    width: 1440px;
-    
+    width: 1440px; 
   }
 
   .skill-list-desktop ul {
