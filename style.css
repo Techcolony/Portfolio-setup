@@ -90,8 +90,13 @@ a {
   margin-bottom: 27px;
 }
 
-li {
+.social-media-icon2 li,
+.social-media-icon li,
+.project-list ul,
+.project ul,
+.project1 ul {
   display: flex;
+  list-style: none;
 }
 
 .headline1 {
@@ -373,6 +378,7 @@ button:active {
   padding: 0;
   width: 20.4375rem;
   margin-bottom: 10px;
+  list-style: none;
 }
 
 .skill-list h3 {
@@ -397,6 +403,8 @@ button:active {
   height: 4.17rem;
   align-items: center;
   padding-left: 5rem;
+  list-style: none;
+  display: flex;
 }
 
 .language ul {
@@ -544,6 +552,10 @@ button:active {
 
 .header-desktop {
   display: none;
+}
+
+.form-input {
+  list-style-type: none;
 }
 
 @media screen and (min-width: 768px) {
