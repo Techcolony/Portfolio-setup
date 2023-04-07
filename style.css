@@ -18,6 +18,17 @@ body {
   align-items: center;
 }
 
+.nav-bar > ul {
+  display: none;
+  position: absolute;
+  margin: 50px 80%;
+}
+
+.nav-bar li {
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
 .logo {
   margin-left: 1.5rem;
   margin-top: 0.875rem;
@@ -27,6 +38,13 @@ body {
   font-size: 1.125rem;
   line-height: 1.25rem;
   color: #6070ff;
+  transition: all 150ms ease-in-out;
+  transition-duration: 1s;
+}
+
+.logo:hover {
+  text-decoration-line: underline;
+  transform: rotate(10deg);
 }
 
 a {
@@ -37,6 +55,9 @@ a {
 }
 
 .drop-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
   margin-right: 2.25rem;
   margin-top: 0.875rem;
 }
@@ -71,8 +92,13 @@ a {
   margin-top: 12px;
 }
 
-li {
+.social-media-icon2 li,
+.social-media-icon li,
+.project-list ul,
+.project ul,
+.project1 ul {
   display: flex;
+  list-style: none;
 }
 
 .headline1 {
@@ -123,6 +149,10 @@ button:active {
   height: 2788px;
   top: 718px;
   background: #dfe1e6;
+}
+
+.snapshoot-portfolio-desktop {
+  display: none;
 }
 
 .card-works {
@@ -331,6 +361,7 @@ button:active {
   gap: 0.75rem;
   font-family: 'Poppins', sans-serif;
   width: 20.4375rem;
+  list-style: none;
 }
 
 .skill-list ul {
@@ -341,6 +372,7 @@ button:active {
   padding: 0;
   width: 20.4375rem;
   margin-bottom: 10px;
+  list-style: none;
 }
 
 .skill-list h3 {
@@ -365,6 +397,8 @@ button:active {
   height: 4.17rem;
   align-items: center;
   padding-left: 5rem;
+  list-style: none;
+  display: flex;
 }
 
 .language ul {
@@ -377,6 +411,7 @@ button:active {
   height: 3rem;
   left: 0.75rem;
   margin-left: 1.5625rem;
+  align-items: center;
 }
 
 .separator-border {
@@ -494,7 +529,6 @@ form {
 }
 
 #btn {
-  /* margin: 0 auto; */
   align-items: center;
   padding: 12px 16px;
   width: 142px;
@@ -502,11 +536,14 @@ form {
   background: #fff;
   color: #6070ff;
   border-radius: 8px;
-  margin-left: 23px;
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
+}
+
+.form-input {
+  list-style-type: none;
 }

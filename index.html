@@ -14,11 +14,15 @@
 </head>
 <body>
     <header class="header">
+        <img class="drop-bar" src="icons-images/Icon-menu.png">
         <nav class="nav-bar">
             <a href="#" class="logo">Techcolony</a>
-            <img class="drop-bar" src="icons-images/Icon-menu.png">    
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
-    </header>
     <section class="headline">
         <div class="headline1d">
             <h1 class="headline1">
@@ -44,11 +48,13 @@
             </ul>
         </div>
     </section>
+    <!--works Section-->
     <section>
         <div class="works">
             <div class="card-works">
                 <div class="snapshoot-portfolio">
-                    <img src="icons-images/Snapshoot.png" alt="" />
+                    <img class="snapshoot-img1" src="icons-images/Snapshoot.png" alt="" />
+                    <img class="snapshoot-portfolio-desktop" src="icons-images/Snapshoot-Portfolio.png" alt="" />  
                 </div>
                 <div class="left-block-container">
                     <div class="left-block">
@@ -243,7 +249,7 @@
                     </p>
                 </div>
                 <form action="https://formspree.io/f/mgebnvgq" method="post">
-                    <ul>
+                    <ul class="form-input">
                         <li><input type="text" name="text" id="text" maxlength="30" placeholder="Your Full Name" required></li>
                         <li><input type="email" name="email" id="email" placeholder="Your Email ID" required></li>
                         <li><textarea name="comment" id="comment" placeholder="Write your message here..." maxlength="500" required></textarea></li>
