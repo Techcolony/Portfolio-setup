@@ -43,6 +43,13 @@ body {
   font-size: 1.125rem;
   line-height: 1.25rem;
   color: #6070ff;
+  transition: all 150ms ease-in-out;
+  transition-duration: 1s;
+}
+
+.logo:hover {
+  text-decoration-line: underline;
+  transform: rotate(10deg);
 }
 
 a {
@@ -426,6 +433,7 @@ button:active {
   height: 3rem;
   left: 0.75rem;
   margin-left: 1.5625rem;
+  align-items: center;
 }
 
 .separator-border {
