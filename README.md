@@ -64,6 +64,7 @@
 - Added responsiveness to the design
 - Implemented linters
 - Added Contact form
+- Deployed the webpages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +72,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming Soon
+> This is the [live demo link](https://techcolony.github.io/Portfolio-setup/)
 
 <!-- GETTING STARTED -->
 
