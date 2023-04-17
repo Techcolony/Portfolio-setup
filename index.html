@@ -15,8 +15,15 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Techcolony</a>
-        <nav class="nav-bar">
-            <img class="drop-bar" src="icons-images/Icon-menu.png">
+        <nav id="nav-menu" class="nav-bar">
+            <ion-icon id="toggle-menu" class="drop-bar" size="large" name="menu-outline" aria-hidden="true" aria-label="menu"></ion-icon>
+            <ion-icon id="close-menu" class="drop-bar" size="large" name="close-outline" aria-hidden="true" aria-label="menu"></ion-icon>
+            
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Portfolio</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
         </nav>
 
         <nav class="nav-bar_desk">
@@ -293,5 +300,7 @@
                     </ul>    
                 </form>
             </section>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
