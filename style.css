@@ -44,7 +44,6 @@ body {
   align-items: flex-start;
   margin-left: 1.5rem;
   list-style-type: none;
-  margin-top: 5em;
   color: #fff;
   margin-top: 100px;
 }
@@ -87,7 +86,7 @@ body {
   transform: rotate(10deg);
 }
 
-a {
+ul li a {
   text-decoration: none;
   font-size: 18px;
   line-height: 20px;
