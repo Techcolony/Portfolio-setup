@@ -42,7 +42,6 @@ document.querySelectorAll('.button').forEach((work) => {
                 <div class="titlePopup">
                 
                   <h3 class="comp-title">${project[id].projectTitle}</h3>
-                 
                   <img
                   id="popupClose${id}"
                   class="popupClose"
@@ -70,8 +69,8 @@ document.querySelectorAll('.button').forEach((work) => {
                 </ul>
                 <hr>
                 <div class="actionBtnPopup">
-                 <a class="btn btnPopup" href=${project[id].seeLive} target='blank'>
-                 See Live <img class="seeAll" src='/icons/Iconlive.svg' alt="seeLive"></a>
+                <a class="btn btnPopup" href=${project[id].seeLive} target='blank'>
+                See Live <img class="seeAll" src='/icons/Iconlive.svg' alt="seeLive"></a>
                 <a class="btn btnPopup" href=${project[id].sourceCode} target='blank'>
                 See Source <img class="seeAll" src='/icons/Groupsource.svg' alt="githubCode"></a>
                 </div>
