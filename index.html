@@ -15,8 +15,14 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Techcolony</a>
-        <nav class="nav-bar">
-            <img class="drop-bar" src="icons-images/Icon-menu.png">
+        <img class="drop-bar" id="toggle-menu" src="icons-images/Icon-menu.png" alt="menu-icon">
+        <nav id="nav-menu" class="nav-bar">
+            <img class="close" id="close-menu" src="icons-images/close.png" alt="close-icon" />
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#project">Portfolio</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
 
         <nav class="nav-bar_desk">
@@ -50,7 +56,7 @@
     </section>
     <!--works Section-->
     <section>
-        <div class="works">
+        <div class="works" id="project">
             <div class="card-works">
                 <div class="snapshoot-portfolio">
                     <img class="snapshoot-img1" src="icons-images/Snapshoot.png" alt="" />
@@ -199,8 +205,8 @@
             </div>
         </div>
     </section>
-    <section class="about">
-        <div class=text-part>
+    <section class="about" id="about">
+        <div class= "text-part">
             <div class="about1d">
                 <h3 class="about1">
                     About Myself
@@ -278,7 +284,7 @@
                         </div>
                 </div>
     </section>
-            <section class="contact-me">
+            <section class="contact-me" id="contact">
                 <div class="contact-text">
                     <h3>Contact me</h3>
                     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
@@ -293,5 +299,8 @@
                     </ul>    
                 </form>
             </section>
+            <script src="menu.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
