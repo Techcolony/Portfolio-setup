@@ -41,6 +41,7 @@
 1. HTML5
 2. CSS3
 3. LINTERS
+4. JAVSCRIPT
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -50,6 +51,7 @@
     <li><a href="https://html.com/html5/">HTML5</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS3</a></li>
     <li><a href="">LINTERS</a></li>
+    <li><a href="https://html.com/html5/">JAVASCRIPT</a></li>
   </ul>
 </details>
 
@@ -65,7 +67,7 @@
 - Implemented linters
 - Added Contact form
 - Deployed the webpages
-
+- Added menu animation with javascript
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
